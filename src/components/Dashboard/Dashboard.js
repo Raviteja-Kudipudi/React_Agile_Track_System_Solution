@@ -2,6 +2,8 @@ import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import ScrumDetails from '../Scrum Details/ScrumDetails';
 import { UserContext } from '../../context/UserContext';
+import './Dashboard.css';
+
 
 const Dashboard = () => {
     const [scrums, setScrums] = useState([]);

@@ -27,6 +27,48 @@
       "password": "password3",
       "role": "employee",
       "id": 4
+    },
+    {
+      "name": "Lohith",
+      "email": "lohithrdj123@gmail.com",
+      "password": "Lohith@123",
+      "role": "employee",
+      "id": 5
+    },
+    {
+      "name": "Admin",
+      "email": "admin@test.com",
+      "password": "123456",
+      "role": "employee",
+      "id": 6
+    },
+    {
+      "name": "admin",
+      "email": "admin@example.com",
+      "password": "admin12345",
+      "role": "employee",
+      "id": 7
+    },
+    {
+      "name": "admin",
+      "email": "admin@example.com",
+      "password": "admin12345",
+      "role": "employee",
+      "id": 8
+    },
+    {
+      "name": "Raviteja",
+      "email": "raviteja@example.com",
+      "password": "ravi12345",
+      "role": "employee",
+      "id": 9
+    },
+    {
+      "name": "Employee Four",
+      "email": "employee4@example.com",
+      "password": "emp12345",
+      "role": "employee",
+      "id": 10
     }
   ],
   "scrums": [
@@ -41,6 +83,14 @@
     {
       "name": "Scrum Team C",
       "id": 3
+    },
+    {
+      "name": "Sprinting Squirrels",
+      "id": 4
+    },
+    {
+      "name": "Project",
+      "id": 5
     }
   ],
   "tasks": [
@@ -48,7 +98,7 @@
       "id": 1,
       "title": "Task One",
       "description": "Description for Task One",
-      "status": "Done",
+      "status": "To Do",
       "scrumId": 1,
       "assignedTo": 2,
       "history": [
@@ -63,6 +113,18 @@
         {
           "status": "Done",
           "date": "2024-08-26"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-15"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-15"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-16"
         }
       ]
     },
@@ -97,6 +159,50 @@
         }
       ],
       "id": 3
+    },
+    {
+      "title": "Backend API Development",
+      "description": "Develop and integrate RESTful APIs for the user authentication module. Ensure proper validation and security measures.",
+      "status": "To Do",
+      "scrumId": 4,
+      "assignedTo": "9",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-16"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-16"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "Backend",
+      "description": "Production work",
+      "status": "To Do",
+      "scrumId": 5,
+      "assignedTo": "10",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-16"
+        }
+      ],
+      "id": 5
     }
   ]
 }
